@@ -14,8 +14,3 @@ D --> E[(SQL Server<br>Curated Table<br>fires)]
 E --> F[SQL Analytical Views<br>Daily trends<br>Spatial aggregation]
 
 F --> G[Power BI Dashboard<br>Maps • Trends • KPIs]
-
----
-##
-This pipeline demonstrates a complete Business Intelligence workflow:
-data ingestion, ETL processing, data modelling, and visualization.
