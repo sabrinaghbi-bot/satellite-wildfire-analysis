@@ -55,26 +55,14 @@ Typical attributes include:
 ---
 
 ## Repository Structure
-satellite-wildfire-analysis
-│
-├── python
-│ └── download_firms_data.py
-│
-├── sql
-│ ├── create_tables.sql
-│ └── analytics_views.sql
-│
-├── ssis
-│ └── ETL_FIRMS_MODIS.dtsx
-│
-├── powerbi
-│ └── wildfire_dashboard.pbix
-│
-├── data_sample
-│ └── fires_sample.csv
-│
-└── docs
-└── pipeline_architecture.md
+
+- **python/** – Python scripts for data ingestion and preprocessing
+- **sql/** – SQL scripts for table creation and analytical views
+- **ssis/** – SSIS packages used for the ETL process
+- **powerbi/** – Power BI dashboard files
+- **data_sample/** – Small sample dataset
+- **docs/** – Project documentation and pipeline architecture
+  
 ---
 
 ## Pipeline Description
